@@ -1,0 +1,146 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.full {
+  width: 50%;
+  max-width: 1000px;
+  min-height: 100px;
+  margin: 0px;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+.left {
+  position: initial;
+  padding: 20px;
+}
+
+.right {
+  position: initial;
+  padding: 20px;
+}
+
+.experience,
+.skills,
+.education,
+.projects,
+.skills,
+.awards,
+.languages {
+  margin-bottom: 15px;
+  margin-top: 55px;
+  color: rgb(99, 159, 216);
+  font-size: 9px;
+  font-family: sans-serif;
+  font-weight: 800;
+}
+
+
+.education,
+.projects,
+.skills,
+.awards,
+.languages {
+  margin-bottom: 15px;
+  margin-top: 30px;
+  color: rgb(99, 159, 216);
+  font-size: 9px;
+  font-family: sans-serif;
+  font-weight: 800;
+}
+
+.skills {
+  margin-top: 80px;
+}
+
+.titleBox {
+  margin-top: 20px;
+  font-size: 33px;
+}
+
+.titleBox p {
+  font-size: 9px;
+}
+
+.experienceContext .experienceP2 {
+  font-size: 13px;
+  color: black;
+}
+
+.experienceContext .experienceP3 {
+  font-size: 8px;
+  margin-top: -11px;
+  color: rgb(120, 120, 120);
+  font-family: sans-serif;
+}
+
+.experienceContext p {
+  font-size: 10px;
+  margin-top: -2px;
+  color: rgb(120, 120, 120);
+
+}
+
+.educationContext .educationP2 {
+  font-size: 13px;
+  color: black;
+}
+
+.educationContext .educationP3 {
+  font-size: 8px;
+  margin-top: -12px;
+  color: rgb(120, 120, 120);
+  font-family: sans-serif;
+}
+
+.educationContext p {
+  font-size: 10px;
+  margin-top: -2px;
+  color: rgb(120, 120, 120);
+
+}
+
+.projectsContext .projectsP2 {
+  font-size: 13px;
+  color: black;
+}
+
+.projectsContext .projectsP3 {
+  font-size: 8px;
+  margin-top: -10px;
+  color: rgb(120, 120, 120);
+  font-family: sans-serif;
+}
+
+.projectsContext p {
+  font-size: 10px;
+  margin-top: -2px;
+  color: rgb(120, 120, 120);
+
+}
+
+.info {
+  font-size: 10px;
+  margin-top: 25px;
+}
+
+.skillsContext {
+  font-size: 10px;
+  margin-top: -2px;
+  color: rgb(120, 120, 120);
+}
+
+.awardsContext {
+  font-size: 10px;
+  margin-top: -2px;
+  color: rgb(120, 120, 120);
+}
+
+.languagesContext {
+  font-size: 10px;
+  margin-top: -2px;
+  color: rgb(120, 120, 120);
+}
